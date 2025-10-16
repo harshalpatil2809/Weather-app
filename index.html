@@ -37,17 +37,32 @@
           class="flex-grow bg-transparent text-lg placeholder:text-gray-300 text-white border-2 border-gray-300 px-4 py-2 outline-none rounded-md"
         />
         <button
-          class="p-2 rounded-full hover:bg-gray-50/20 active:bg-gray-100/20"
+          class="p-3 rounded-full hover:bg-gray-50/20 active:bg-gray-100/20"
         >
-          <img class="h-5 w-5 invert" src="IMGS/search.png" alt="Search" />
+          <img class="h-7 w-7 invert" src="IMGS/search.png" alt="Search" />
         </button>
       </div>
       <div class="output text-white text-center mt-6 items-center">
-        <img src="IMGS/SUN.png" class="items-center">
-        <h1>30&deg;C</h1>
-        <h2>New York</h2>
-        <div class="deatils">
-
+        <div class="weather flex flex-col items-center my-5">
+          <img src="IMGS/rain.png" class="w-1/3" >
+          <h1>30&deg;C</h1>
+          <h2>New York</h2>
+        </div>
+        <div class="detail flex justify-around items-center">
+          <div class="humidity flex flex-col gap-4">
+            <img src="IMGS/humidity.png" >
+            <div>
+              <h2>50%</h2>
+              <h2>Humidity</h2>
+            </div>
+          </div>
+          <div class="wind flex flex-col gap-4">
+            <img src="IMGS/wind.png">
+            <div>
+                <h2>12 KM/H</h2>
+                <h2>Wind Speed</h2>
+            </div>
+          </div>
         </div>
       </div>
     </div>
