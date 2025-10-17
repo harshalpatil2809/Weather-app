@@ -38,7 +38,7 @@ function replace_data(city, temp, humidity, wind, weather) {
       weather_O.src = "IMGS/mist.png";
       break;
     case "Rain":
-      weather_O.src = "IMGS/Rain.png";
+      weather_O.src = "IMGS/rain.png";
       break;
     case "Snow":
       weather_O.src = "IMGS/snow.png";
