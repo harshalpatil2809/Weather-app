@@ -1,4 +1,4 @@
-const API_KEY = "";
+const API_KEY = "1d9095efd9e05c29f071ae31c892be7c";
 let city_input = document.querySelector("input");
 let submit = document.querySelector("button");
 let weather_O = document.querySelector(".weather");
